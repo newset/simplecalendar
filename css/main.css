@@ -1,0 +1,172 @@
+html {
+    background: #E7E8EC;
+}
+
+h1, h2 , h3, p, a, a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.colors {
+	color: #D5D6DB;
+	color: #E7E8EC;
+	color: #728AB0;
+	color: #4A6C9C;
+	color: #D2D3D8;
+}
+
+table {
+}
+
+table tr:first-child th:first-child{
+	border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+
+}
+table tr:first-child th:last-child{
+	border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+}
+
+.calendar {
+	width: 1400px;
+	margin: 0px auto 0px auto;
+	padding: 5px;
+	font-size: 15px;
+}
+
+.calendar-top-navigation {
+	margin: 10px auto 0px auto;
+	width: 900px;
+}
+
+.calendar-top-navigation h2{
+    text-align: left;
+	font-size: 15px;
+    font-weight: bold;
+	font-family: Arial, sans-serif;
+    color: #4A6C9C;
+    display: block;
+}
+
+
+.calendar-table {
+	margin: 0px auto;
+	width: 1000px;
+	
+}
+.calendar-table th{
+	padding: 0px;
+}
+
+.calendar-table-header {
+	background: #D2D3D8;
+}
+
+.calendar-table-header th{
+	padding: 5px;
+	text-align: center;
+}
+
+.calendar-table-body {
+	height: 40px;
+	background: #F7F7F7;
+}
+
+.calendar-table-body th{
+    text-align: center;
+	border: 1px solid #4A6C9C;
+}
+
+.calendar-table-body th:first-child{
+	border: none;
+	border-top: 1px solid #4A6C9C;
+	border-bottom: 1px solid #4A6C9C;
+}
+
+.calendar-table-body th:last-child{
+	border: none;
+	border-top: 1px solid #4A6C9C;
+	border-bottom: 1px solid #4A6C9C;
+}
+
+.calendar-table strong {
+	font-weight: bold;
+}
+
+.calendar .previous {
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4A6C9C;
+	float: left;
+	cursor: pointer;
+}
+.calendar .next {
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4A6C9C;
+	float: right;
+	cursor: pointer;
+}
+
+.calendar-navigation {
+	width: 1000px;
+	margin: 0px auto;
+	display: block;
+}
+
+.calendar-navigation .previous {
+	width: 100px;
+	cursor: pointer;
+	float: left;
+	text-align: left;
+}
+.calendar-navigation .next {
+	width: 100px;
+	cursor: pointer;
+	float: left;
+	text-align: right;
+}
+
+.calendar-navigation .current {
+	width: 798px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+
+.previous a, .next a, .current a {
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4A6C9C;
+}
+
+#dialog {
+	display: none;
+}
+
+#dialog input[type=text] {
+	width: 300px;
+}
+
+.cell {
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+}
